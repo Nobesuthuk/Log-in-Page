@@ -1,5 +1,8 @@
 body {
     background-image: url('background5.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .navbar a {
     float: left;
@@ -16,17 +19,54 @@ body {
  }
 
  .navbar {
-  background-color:whitesmoke; 
+  background-color:rgb(247, 187, 247);; 
   overflow: hidden;
   margin: 0;
   padding: 0;
-  shape-outside: margin-box;
+  list-style-type: none;
+  position:relative;
+  width: 100%;
 } 
 
 .label {
   align-content: center;
 }
 
+.box {
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ min-height: 100vh;
+}
 
+.container {
+  padding: 20px;
+   width: 500px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(247, 187, 247);
+  border-radius: 30px;
 
+}
 
+.top{
+letter-spacing: 2px;
+  font-size: large;
+  color: rgb(155, 17, 125);
+  text-shadow: 30px;
+  padding: 2px;
+}
+.bottom {
+ padding: 2px;
+ 
+ color: rgb(155, 17, 125);
+ 
+}
+.input {
+ border-radius: 30px;
+ border: none;
+ outline: none;
+
+}
